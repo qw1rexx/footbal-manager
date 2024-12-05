@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #8dc63f;
+    font-family: "Arial";
+}
+
+.wrapper {
+    max-width: 960px;
+    background-color: #ffffff;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    padding: 25px 0;
+}
+
+.logo {
+    column-gap: 34px;
+}
+
+.logo p,
+.contacts a {
+    font-size: 22px;
+    color: #39930d;
+}
+
+.logo b {
+    display: block;
+    font-size: 44px;
+}
+
+.logo i,
+.contacts i {
+    font-size: 14px;
+    color: #5a5a5a;
+}
+
+.contacts p {
+    text-align: right;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main {
+    padding: 25px 0 25px;
+}
+
+.main-text h1 {
+    font-size: 24px;
+    color: #39930d;
+    padding-bottom: 17px;
+}
+
+.main-text p {
+    padding-bottom: 17px;
+    max-width: 599px;
+    font-size: 14px;
+    line-height: 1.5em;
+    color: #343434;
+}
+
+.menu p {
+    background-color: #39930d;
+    padding: 11px 20px;
+    min-width: 300px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.menu ul {
+    padding: 20px;
+}
+
+.menu a {
+    font-size: 14px;
+    line-height: 2.1em;
+    text-transform: uppercase;
+    color: #39930d;
+    position: relative;
+}
+
+.menu a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #5a5a5a;
+    bottom: -5px;
+    left: 0;
+    transform: scale(0);
+    transition: 0.5s ease;
+}
+
+.menu a:hover:before {
+    transform: scale(1);
+}
+
+.menu a:hover {
+    color: #5a5a5a;
+} 
+
+
+.footer {
+    margin: 0 -15px;
+    padding: 14px 16px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #39930d;  
+}
